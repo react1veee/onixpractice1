@@ -1,0 +1,79 @@
+.iti__flag { background-image:  url("path/to/flags.png");}
+ 
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .iti__flag { background-image:  url( " path/to/flags@2x.png") ;}
+}
+
+* {box-sizing: border-box;}
+.railway {
+  max-width: 350px;
+  margin: 50px auto 0;
+  padding: 20px;
+  border-radius: 10px;
+  background: #00D5B2;
+  font-family: 'Oswald', sans-serif;
+}
+.railway h3 {
+  padding: 7px;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #D52700;
+  background: #C3D58A;
+}
+.form-group {
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: #FFF;
+}
+.form-group input, 
+.form-group label, 
+.form-group textarea {
+  display: block;
+  width: 100%;
+}
+.form-group input {
+  padding: 0;
+  line-height: 30px;
+  background: #ddd;
+  border-width: 0;
+}
+select {
+  background: #Ddd;
+}
+.form-group label {
+  margin-bottom: 5px;
+  color: #D52700; 
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.submit-block {
+  padding: 10px 20px 20px;  
+  text-align: center;
+  cursor: pointer;
+}
+.submit-button input {
+  background: #C2D5A7;
+  padding-bottom: 20px;
+  padding-right: 15px;
+  padding-top: 20px;
+  padding-left: 15px;
+  border-radius: 10px;
+  border-width: 0;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.submit-button input:hover {
+  background-color:#0092FA; 
+}
+nav div{
+  display: inline-block;
+}
+
+
+
+
+
